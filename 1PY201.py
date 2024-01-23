@@ -1,14 +1,13 @@
-# 请在______处使用一行代码或表达式替换
-#
-# 注意：请不要修改其他已给出代码
-
-import turtle
-turtle.right(-30)
-___(1)___
-turtle.right(60)
-turtle.fd(200)
-___(2)___
-turtle.fd(200)
-turtle.right(60)
-turtle.fd(200)
-turtle.right(120)
+data = input()  
+s=0
+n=0
+i=0
+while data:
+    i=i+1
+    ls=data.split()
+        s=s+int(ls[2])
+        if ls[1]==('男'):
+            n=n+1   
+    data = input()
+s=s/i
+print("平均年龄是{:.2f} 男性人数是{}".format(______))
